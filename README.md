@@ -103,6 +103,9 @@ What I Learned: In this Video, I explored how to use the LangSmith playground to
 Changes in Code: I wrote code to create a toy dataset and add example questions with reference answers. I ran quick experiments using these samples and checked the outputs to validate my prompts and responses before deploying them to broader usage.
 
 
+[View Notebook](https://github.com/anshul1204/anshul1204-langsmith-MAT496/blob/main/notebooks/module_3/playground_experiments.ipynb)
+
+
 Video 2: Prompt Hub
 
 What I Learned: In this section, I learned how to connect my application to the LangSmith Prompt Hub, which lets me test, iterate, and manage prompts from a central interface. I saw how prompts can be pulled directly into my application so improvements on LangSmith are automatically reflected.
@@ -111,12 +114,18 @@ What I Learned: In this section, I learned how to connect my application to the 
 Changes in Code: I updated the code to connect with the Prompt Hub, pulled a prompt by its name, hydrated it with sample inputs, converted it to OpenAI format, and ran it. I also added code to upload new prompts and bind them with model configurations for later use.
 
 
+[View Notebook](https://github.com/anshul1204/anshul1204-langsmith-MAT496/blob/main/notebooks/module_3/prompt_hub.ipynb)
+
+
 Video 3: Prompt Engineering Lifecycle
 
 What I Learned: This part taught me about the major steps in prompt engineering with LangSmith, including setting up tracing, logging prompts, creating example datasets, and pulling prompts from the Prompt Hub. I also learned best practices for handling prompt updates and model evaluation.
 
 
 Changes in Code: I set up environment variables for tracing, decorated important functions using the LangSmith SDK, and created a dataset based on my app’s Q&A workflow. I tweaked the workflow to use a prompt fetched directly from the Prompt Hub instead of a static file, making the process seamless and more modular.
+
+
+[View Notebook](https://github.com/anshul1204/anshul1204-langsmith-MAT496/blob/main/notebooks/module_3/prompt_engineering_lifecycle.ipynb)
 
 
 
