@@ -103,3 +103,13 @@ What I Learned: In this Video, I explored how to use the LangSmith playground to
 Changes in Code: I wrote code to create a toy dataset and add example questions with reference answers. I ran quick experiments using these samples and checked the outputs to validate my prompts and responses before deploying them to broader usage.
 
 
+Video 2: Prompt Hub
+
+What I Learned: In this section, I learned how to connect my application to the LangSmith Prompt Hub, which lets me test, iterate, and manage prompts from a central interface. I saw how prompts can be pulled directly into my application so improvements on LangSmith are automatically reflected.
+
+
+Changes in Code: I updated the code to connect with the Prompt Hub, pulled a prompt by its name, hydrated it with sample inputs, converted it to OpenAI format, and ran it. I also added code to upload new prompts and bind them with model configurations for later use.
+
+
+
+
