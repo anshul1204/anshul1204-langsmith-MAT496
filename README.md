@@ -91,3 +91,15 @@ What I Learned: It focused on summary evaluators that calculate metrics like pre
 
 Changes in Code: In the notebook, I used summary evaluators on my dataset to get more comprehensive statistics about model output quality and understood how these metrics appear in the LangSmith UI. Thicompleted my understanding of different evaluation levels.
 [View Notebook](https://github.com/anshul1204/anshul1204-langsmith-MAT496/blob/main/notebooks/module_2/summary_evaluators.ipynb)
+
+
+**Module 3**
+
+Video 1: Playground Experiments
+
+What I Learned: In this Video, I explored how to use the LangSmith playground to quickly run experiments on prompts and model outputs using small, sample datasets. This included setting up a playground dataset and using it to check the accuracy and flexibility of different prompt versions.
+
+
+Changes in Code: I wrote code to create a toy dataset and add example questions with reference answers. I ran quick experiments using these samples and checked the outputs to validate my prompts and responses before deploying them to broader usage.
+
+
