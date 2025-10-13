@@ -120,6 +120,13 @@ Changes in Code: I set up environment variables for tracing, decorated important
 
 
 
+Video 4: Prompt Canvas
+
+In this section, I learned how to use the Prompt Canvas tool within the playground, which makes prompt design faster and more intuitive. The Prompt Canvas allows me to collaborate with an LLM to automatically draft and refine prompts by suggesting edits and best practices. One particularly helpful feature is that I can highlight any part of a prompt and have the LLM improve or adjust just that part, making it easier to experiment with different prompt variations and optimize results.
+
+![alt text](image-1.png)
+
+![alt text](image.png)
 
 
 
