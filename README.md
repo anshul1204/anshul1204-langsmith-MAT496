@@ -111,5 +111,15 @@ What I Learned: In this section, I learned how to connect my application to the 
 Changes in Code: I updated the code to connect with the Prompt Hub, pulled a prompt by its name, hydrated it with sample inputs, converted it to OpenAI format, and ran it. I also added code to upload new prompts and bind them with model configurations for later use.
 
 
+Video 3: Prompt Engineering Lifecycle
+
+What I Learned: This part taught me about the major steps in prompt engineering with LangSmith, including setting up tracing, logging prompts, creating example datasets, and pulling prompts from the Prompt Hub. I also learned best practices for handling prompt updates and model evaluation.
+
+
+Changes in Code: I set up environment variables for tracing, decorated important functions using the LangSmith SDK, and created a dataset based on my app’s Q&A workflow. I tweaked the workflow to use a prompt fetched directly from the Prompt Hub instead of a static file, making the process seamless and more modular.
+
+
+
+
 
 
